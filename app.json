@@ -8,7 +8,7 @@
         "save restricted",
         "bot"
     ],
-    "repository": "ur repo",
+    "repository": "https://github.com/Adreinbrody/SRCB_for-cpy1",
     "website": "",
     "success_url": "https://t.me/srcb_here",
     "env": {
