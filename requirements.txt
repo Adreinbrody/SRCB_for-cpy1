@@ -1,0 +1,8 @@
+#Github.com
+
+ethon==1.3.6
+cryptg
+tgcrypto
+telethon
+pyrogram
+python-decouple

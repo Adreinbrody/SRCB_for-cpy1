@@ -1,0 +1,48 @@
+{
+    "name": "Save Restricted Bot",
+    "description": "Saves restricted content",
+    "logo": "",
+    "keywords": [
+        "A",
+        "telegram",
+        "save restricted",
+        "bot"
+    ],
+    "repository": "ur repo",
+    "website": "",
+    "success_url": "https://t.me/srcb_here",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "AUTH": {
+            "description": "owner user id. who will get access to do batch command",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "pyrogram string session. Get from- https://replit.com/@SpEcHiDe/GenerateStringSession",
+            "value": ""
+        },
+        "FORCESUB": {
+            "description": "Public Channel username without using '@' to forcesub.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
